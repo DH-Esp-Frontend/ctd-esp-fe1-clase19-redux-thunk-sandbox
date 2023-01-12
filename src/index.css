@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.list{
+  list-style: none;
+  background-color: transparent;
+  margin: 5px;
+  cursor: pointer;
+
+}
+
+.list:hover{
+  color: rgba(209, 204, 104, 0.5);
+}
+
+button {
+  /* Variables */
+ --button_radius: 0.75em;
+ --button_color: #e8e8e8;
+ --button_outline_color: #000000;
+ font-size: 17px;
+ font-weight: bold;
+ border: none;
+ border-radius: var(--button_radius);
+ background: var(--button_outline_color);
+}
+
+button {
+  background-color: transparent;
+  width: 8rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.644);
+  cursor: pointer;
+  margin: 1rem;
+}
+
+button:hover{
+  background-color: rgba(255, 255, 255, 0.322);
+  border: 1px solid rgb(255, 255, 255);
+
+}
